@@ -399,8 +399,8 @@ export default function OnchainSummerBooth() {
           const scaledX     = position.x * scaleFactor;
           const scaledY     = position.y * scaleFactor;
 
-          const scaledWidth  = userImage.width  * zoom * scaleFactor/8.4;
-          const scaledHeight = userImage.height * zoom * scaleFactor/8.4;
+          const scaledWidth  = userImage.width  * zoom * scaleFactor/8.8;
+          const scaledHeight = userImage.height * zoom * scaleFactor/8.8;
 
           const imgX = circleCenterX - scaledWidth  / 2 + scaledX;
           const imgY = circleCenterY - scaledHeight / 2 + scaledY;
