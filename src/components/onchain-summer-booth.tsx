@@ -43,7 +43,7 @@ export default function OnchainSummerBooth() {
   const imageContainerRef = useRef<HTMLDivElement>(null);
 
   // Auto-fit image to frame when loaded
-  const autoFitImage = useCallback((img: HTMLHTMLImageElement) => {
+  const autoFitImage = useCallback((img: HTMLImageElement) => {
     if (!imageContainerRef.current) return;
     
     // Get the actual display size of the frame in the preview
